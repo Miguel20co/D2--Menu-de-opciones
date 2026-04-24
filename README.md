@@ -37,31 +37,31 @@
 
 
 # Java
-    import java.util.Scanner; 
+        import java.util.Scanner; 
 
-    public class MenuPrincipal {
-    public static void main(String[] args) {
+        public class MenuPrincipal {
+        public static void main(String[] args) {
       
-    int opcionSeleccionada = mostrarMenu();
-    System.out.println("Elegiste la opción: " + opcionSeleccionada);
-    }
+        int opcionSeleccionada = mostrarMenu();
+        System.out.println("Elegiste la opción: " + opcionSeleccionada);
+        }
 
-    public static int mostrarMenu() {
-    Scanner leer = new Scanner(System.in);
-    int opcion;
+        public static int mostrarMenu() {
+        Scanner leer = new Scanner(System.in);
+        int opcion;
 
-        System.out.println("===== MENÚ =====");
-        System.out.println("1. Ingresar datos");
-        System.out.println("2. Mostrar datos");
-        System.out.println("3. Salir");
-        System.out.print("Seleccione una opción: ");
+            System.out.println("===== MENÚ =====");
+            System.out.println("1. Ingresar datos");
+            System.out.println("2. Mostrar datos");
+            System.out.println("3. Salir");
+            System.out.print("Seleccione una opción: ");
         
-    opcion = leer.nextInt();
-    return opcion;
+        opcion = leer.nextInt();
+        return opcion;
+        }
     }
-}
             
-   elif opcion == 3:
-   print("cerrando programa")
+       elif opcion == 3:
+       print("cerrando programa")
 
-   principal()
+       principal()
