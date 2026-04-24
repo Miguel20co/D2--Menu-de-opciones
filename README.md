@@ -1,36 +1,36 @@
 # D2--Menu-de-opciones
 
 # Python
-def mostrarMenu():
+    def mostrarMenu():
 
-    print("Menu")
+        print("Menu")
     
-    print("ingresar datos")
+        print("ingresar datos")
     
-    print("mostrar datos")
+        print("mostrar datos")
     
-    print("salir")
+        print("salir")
     
-    opcion = int(input("ingrese una opcion: "))
-    return opcion
+        opcion = int(input("ingrese una opcion: "))
+        return opcion
 
-def principal():
-    comida = []
-    opcion = 0
+    def principal():
+        comida = []
+        opcion = 0
     
-    while opcion != 3:
-        opcion = mostrarMenu()
+        while opcion != 3:
+            opcion = mostrarMenu()
         
-        if opcion == 1:
-            datos = input("ingrese alimento: ")
-            comida.append(datos)
-            print("puesto en lista")
+            if opcion == 1:
+                datos = input("ingrese alimento: ")
+                comida.append(datos)
+                print("puesto en lista")
             
-        elif opcion == 2:
-            print("inventario: ")
+            elif opcion == 2:
+                print("inventario: ")
             
-            for i in comida:
-                print(f"alimento registrado: {i}")
+                 for i in comida:
+                    print(f"alimento registrado: {i}")
 
 
 
